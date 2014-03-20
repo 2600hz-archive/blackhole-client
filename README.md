@@ -32,5 +32,5 @@ You will need git installed in order to clone the blackhole-client repo and to i
     config.crossbar.port = 8000;  
     config.crossbar.username = "bwann";  
     config.crossbar.password = "12341234";  
-    config.crossbar.sip_domain = "sip.realm.com";  
+    config.crossbar.account_name = "account name";  
     module.exports = config;

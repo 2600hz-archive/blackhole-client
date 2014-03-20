@@ -22,24 +22,15 @@ You will need git installed in order to clone the blackhole-client repo and to i
 
 ###### Example config.js file
 
-> var config = {};
-> 
-> config.blackhole = {};
-> 
-> config.crossbar = {};
-> 
-> config.blackhole.host = 'http://192.168.56.111';
-> 
-> config.blackhole.port = 5555;
-> 
-> config.crossbar.host = 'http://192.168.56.111';
-> 
-> config.crossbar.port = 8000;
-> 
-> config.crossbar.username = "bwann";
->                            
-> config.crossbar.password = "12341234";
-> 
-> config.crossbar.sip_domain = "sip.realm.com";
->                         
-> module.exports = config;
+    var config = {};  
+    config.blackhole = {};  
+    config.crossbar = {};  
+    
+    config.blackhole.host = 'http://192.168.56.111';  
+    config.blackhole.port = 5555;  
+    config.crossbar.host = 'http://192.168.56.111';  
+    config.crossbar.port = 8000;  
+    config.crossbar.username = "bwann";  
+    config.crossbar.password = "12341234";  
+    config.crossbar.sip_domain = "sip.realm.com";  
+    module.exports = config;
